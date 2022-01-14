@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xC869175132Eb326FDd32eDCf1439e3568175BB2B",
+  "SCAN_LINK": "https://ropsten.etherscan.io/address/0xC869175132Eb326FDd32eDCf1439e3568175BB2B",
+  "NETWORK": {
+    "NAME": "Ropsten",
+    "SYMBOL": "ETH",
+    "ID": 3
+  },
+  "NFT_NAME": "Photo NFT",
+  "SYMBOL": "PNFT",
+  "MAX_SUPPLY": 100,
+  "WEI_COST": 10000000000000000,
+  "DISPLAY_COST": 0.01,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/",
+  "SHOW_BACKGROUND": true
+}
