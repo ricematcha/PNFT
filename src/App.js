@@ -286,7 +286,7 @@ function App() {
           <header id="header">
             <div class="header-space">
               <div class="icons-left">
-                <img class="logo" src="/config/images/asset4.png" />
+                <img class="logo" src="/config/images/asset4.jpg" />
               </div>
               <div class="icons-right">
                 <div class="navbar">
@@ -300,35 +300,35 @@ function App() {
           </header>
         </div>
             {/* <a class="icon" href="https://google.com" target="_blank" rel="noreferrer">
-              <img class='icon-image' src="/discord.png" alt="discord icon"/>
+              <img class='icon-image' src="/discord.jpg" alt="discord icon"/>
             </a>
             <a class="icon" href="https://twitter.com/TheTimelessAct?s=20" target="_blank" rel="noreferrer">
-              <img class='icon-image' src="/twitter.png" alt="twitter icon"/>
+              <img class='icon-image' src="/twitter.jpg" alt="twitter icon"/>
             </a>
             <a class="icon" href="https://google.com" target="_blank" rel="noreferrer">
-              <img class='icon-image' src="/opensea.png" alt="opensea icon"/>
+              <img class='icon-image' src="/opensea.jpg" alt="opensea icon"/>
             </a>
             <a class="icon" href="https://google.com" target="_blank" rel="noreferrer">
-              <img class='icon-image' src="/etherscan.png" alt="etherscan icon"/>
+              <img class='icon-image' src="/etherscan.jpg" alt="etherscan icon"/>
             </a> */}
         {/* Main Landing Page  */}
         <div class="main-page">
-          <img class="main-image" src="/config/images/asset6.png" />
-          <img class="small-image" src="/config/images/asset3.png" />
+          <img class="main-image" src="/config/images/asset6.jpg" />
+          <img class="small-image" src="/config/images/asset3.jpg" />
         </div>
         {/* Section Divider  */}
-        <img class="section-divider" src="/config/images/asset5.png" />
+        <img class="section-divider" src="/config/images/asset5.jpg" />
         <div class="nft-showcase">
-          <img class="nft-showcase-title" src="/config/images/asset8.png" />
-          <img class="nft-showcase-quote" src="/config/images/asset7.png" />
+          <img class="nft-showcase-title" src="/config/images/asset8.jpg" />
+          <img class="nft-showcase-quote" src="/config/images/asset7.jpg" />
         </div>
         {/* About Section  */}
         <div id="about">
           {/* <p class="black-border"></p> */}
           <div class="about-container">
-            <img class="about-arc" src="/config/images/asset10.png"/>
-            <img class="about-title" src="/config/images/asset12.png" />
-            <img class="about-sparkle" src="/config/images/asset11.png"/>
+            <img class="about-arc" src="/config/images/asset10.jpg"/>
+            <img class="about-title" src="/config/images/asset12.jpg" />
+            <img class="about-sparkle" src="/config/images/asset11.jpg"/>
             <div class="about-description">
             <p class="a-description">The first of its kind, an NFT experience crafted specially for your other half.</p>
             <p class="a-description">The Timeless Act NFT is a celebration of your love for them.</p>
@@ -344,8 +344,8 @@ function App() {
         <p class="black-border"></p>
         {/* Mint Details Section  */}
         <div class='mint-details'>
-          <img class="mint-details-bg" src="/config/images/asset16.png"/>
-          <img class="mint-title" src="/config/images/asset25.png"/>
+          <img class="mint-details-bg" src="/config/images/asset16.jpg"/>
+          <img class="mint-title" src="/config/images/asset25.jpg"/>
           <div class="mint-description">
             <p class="m-description">TTA NFT is projected to release a few days leading up to 14th February, Valentines' Day.</p>
             <p class="m-description">And we've decided to make it a pure WHITELIST mint.</p>
@@ -359,15 +359,15 @@ function App() {
             and also doubles up as an access pass to future NFT drops across collaborations. Subject to include a ***** PFP 
             NFT collection down the road</p>
           </div>
-          <img class="base-perks-title" src="/config/images/asset22.png"/>
-          <img class="base-perks-sparkle" src="/config/images/asset21.png"/>
+          <img class="base-perks-title" src="/config/images/asset22.jpg"/>
+          <img class="base-perks-sparkle" src="/config/images/asset21.jpg"/>
           <div class="container">
-            <img class="bp-icon-1" src="/config/images/asset30.png"/>
-            <img class="bp-icon-2" src="/config/images/asset29.png"/>
-            <img class="bp-icon-3" src="/config/images/asset31.png"/>
-            <img class="bp-title-1" src="/config/images/asset32.png"/>
-            <img class="bp-title-2" src="/config/images/asset33.png"/>
-            <img class="bp-title-3" src="/config/images/asset34.png"/>
+            <img class="bp-icon-1" src="/config/images/asset30.jpg"/>
+            <img class="bp-icon-2" src="/config/images/asset29.jpg"/>
+            <img class="bp-icon-3" src="/config/images/asset31.jpg"/>
+            <img class="bp-title-1" src="/config/images/asset32.jpg"/>
+            <img class="bp-title-2" src="/config/images/asset33.jpg"/>
+            <img class="bp-title-3" src="/config/images/asset34.jpg"/>
           </div>
           <div class="base-perks-description">
             <p class="bp-description">To onboard your other half into the NFT space, we have curated a series of content
@@ -381,9 +381,9 @@ function App() {
         </div>
         {/* Roadmap Section  */}
         <div id="roadmap">
-          <img class="roadmap-arc" src="/config/images/asset37.png"/>
-          <img class="roadmap-title" src="/config/images/asset45.png"/>
-          <img class="roadmap-heart" src="/config/images/asset40.png"/>
+          <img class="roadmap-arc" src="/config/images/asset37.jpg"/>
+          <img class="roadmap-title" src="/config/images/asset45.jpg"/>
+          <img class="roadmap-heart" src="/config/images/asset40.jpg"/>
           <div class="roadmap-description">
             <p class="rm-description">We believe that love can be expressed in many different forms.</p>
             <p class="rm-description">And the more support we receive from our community, the more</p>
@@ -392,20 +392,20 @@ function App() {
             <br/>
             <p class="rm-description">For a total of 4 acts, we have -</p>
           </div>
-          <img class="roadmap-act-1" src="/config/images/asset43.png"/>
-          <img class="roadmap-act-2" src="/config/images/asset42.png"/>
-          <img class="roadmap-act-3" src="/config/images/asset41.png"/>
-          <img class="roadmap-act-4" src="/config/images/asset39.png"/>
+          <img class="roadmap-act-1" src="/config/images/asset43.jpg"/>
+          <img class="roadmap-act-2" src="/config/images/asset42.jpg"/>
+          <img class="roadmap-act-3" src="/config/images/asset41.jpg"/>
+          <img class="roadmap-act-4" src="/config/images/asset39.jpg"/>
         </div>
         {/* Team Section  */}
         {/* <div id="team">
-          <img class="team-title" src="/config/images/asset47.png"/>
+          <img class="team-title" src="/config/images/asset47.jpg"/>
         </div> */}
         {/* FAQ Section  */}
         <div id="faq">
-          <img class="faq-title" src="/config/images/asset51.png"/>
+          <img class="faq-title" src="/config/images/asset51.jpg"/>
           <button type="button" class="collapsible">
-            <img class="faq-heart" src="/config/images/asset48.png"/>
+            <img class="faq-heart" src="/config/images/asset48.jpg"/>
             <p class="faq-numbers">Q1</p>
             <div class="question-container">
               <p class="faq-questions">What is The Timeless Act?</p>
@@ -418,7 +418,7 @@ function App() {
             </div>
           </div>
           <button type="button" class="collapsible">
-            <img class="faq-heart" src="/config/images/asset48.png"/>
+            <img class="faq-heart" src="/config/images/asset48.jpg"/>
             <p class="faq-numbers">Q2</p>
             <div class="question-container">
               <p class="faq-questions">How do I mint it? Is there a whitelist?</p>
@@ -431,7 +431,7 @@ function App() {
               </div>
           </div>
           <button type="button" class="collapsible">
-            <img class="faq-heart" src="/config/images/asset48.png"/>
+            <img class="faq-heart" src="/config/images/asset48.jpg"/>
             <p class="faq-numbers">Q3</p>
             <div class="question-container">
               <p class="faq-questions">When is the mint?</p>
@@ -444,7 +444,7 @@ function App() {
             </div>
           </div>
           <button type="button" class="collapsible">
-            <img class="faq-heart" src="/config/images/asset48.png"/>
+            <img class="faq-heart" src="/config/images/asset48.jpg"/>
             <p class="faq-numbers">Q4</p>
             <div class="question-container">
               <p class="faq-questions">How much does it cost to mint?</p>
@@ -483,7 +483,7 @@ function App() {
           flex={1}
           ai={"center"}
           style={{ padding: 24, backgroundColor: "var(--primary)" }}
-          image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+          image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.jpg" : null}
         >
           <s.SpacerLarge />
           <s.SpacerLarge />
@@ -698,7 +698,7 @@ function App() {
             <source src="/config/audio/thatslife.mp3" />
           </audio>
           <a>
-            <img id="gramophone" src="/config/images/gramophone.png" />
+            <img id="gramophone" src="/config/images/gramophone.jpg" />
           </a>
         </div>
         <s.Container jc={"center"} ai={"center"} style={{ width: "100%" }}>
