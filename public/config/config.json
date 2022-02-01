@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0xC869175132Eb326FDd32eDCf1439e3568175BB2B",
-  "SCAN_LINK": "https://ropsten.etherscan.io/address/0xC869175132Eb326FDd32eDCf1439e3568175BB2B",
+  "CONTRACT_ADDRESS": "0x3B52A77211aF762853387ed0848adA0eF5dc27e1",
+  "SCAN_LINK": "https://ropsten.etherscan.io/address/0x3B52A77211aF762853387ed0848adA0eF5dc27e1",
   "NETWORK": {
     "NAME": "Ropsten",
     "SYMBOL": "ETH",
@@ -12,7 +12,7 @@
   "WEI_COST": 10000000000000000,
   "DISPLAY_COST": 0.01,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/",
-  "SHOW_BACKGROUND": true
+  "SHOW_BACKGROUND": false
 }
