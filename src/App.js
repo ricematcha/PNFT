@@ -341,7 +341,7 @@ function App() {
             <p class="a-description">with the intention of it to be gifted, acting as a reminder to your other</p>
             <p class="a-description">half that they are the reason behind all of your hustle in the space.</p>
             <br/>
-            <p class="a-description">And for those singles out there, don't worry,</p>
+            <p class="a-description">And for the singles out there, don't worry,</p>
             <p class="a-description">we've got you covered and have something in store for you too.</p>
           </div>
         </div>
