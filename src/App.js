@@ -320,6 +320,11 @@ function App() {
         <img class="section-divider" src="/config/images/asset5.jpg" />
         <div class="nft-showcase">
           <img class="nft-showcase-title" src="/config/images/asset8.jpg" />
+          <div class="nft-container">
+            <img class="nft" src="/config/images/1.jpg"></img>
+            <img class="nft" src="/config/images/2.jpg"></img>
+            <img class="nft" src="/config/images/7.jpg"></img>
+          </div>
           <img class="nft-showcase-quote" src="/config/images/asset7.jpg" />
         </div>
         {/* About Section  */}
