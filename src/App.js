@@ -121,16 +121,16 @@ function App() {
   });
   var audioStatus = false;
 
-  // window.onload = myFunction();
+  window.onload = myFunction();
 
-  // function myFunction() {
-  //   let myVar = setTimeout(showPage, 3000);
-  // }
+  function myFunction() {
+    let myVar = setTimeout(showPage, 3000);
+  }
 
-  // function showPage() {
-  //   document.getElementById("loading").style.display = "none";
-  //   document.getElementById("page").style.display = "block";
-  // }
+  function showPage() {
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("page").style.display = "block";
+  }
 
   // Loading cursor object 
   document.addEventListener("DOMContentLoaded", function() { 
@@ -329,7 +329,6 @@ function App() {
         </div>
         {/* About Section  */}
         <div id="about">
-          {/* <p class="black-border"></p> */}
           <div class="about-container">
             <img class="about-arc" src="/config/images/asset10.jpg"/>
             <img class="about-title" src="/config/images/asset12.jpg" />
@@ -354,12 +353,12 @@ function App() {
           <div class="mint-description">
             <p class="m-description">TTA NFT is projected to release a few days leading up to 14th February, Valentines' Day.</p>
             <p class="m-description">And we've decided to make it a pure WHITELIST mint.</p>
-            <br/>
+            <br class="break"/>
             <p class="m-description">Why, you ask?</p>
-            <br/>
+            <br class="break"/>
             <p class="m-description">Simple, TTA NFT is not for the flippers out there, it is meant to be gifted to 
             your other half and hodl as a "digital memorabilia"</p>
-            <br />
+            <br class="break"/>
             <p class="m-description">Holders of TTA NFT will receive base perks, entitlement to participate in prized giveaways 
             and also doubles up as an access pass to future NFT drops across collaborations. Subject to include a ***** PFP 
             NFT collection down the road</p>
@@ -731,9 +730,12 @@ function App() {
         </s.Container> */}
       </div>
       {/* Loading screen  */}
-      {/* <div id="loading">
-        <p class="loading-title">Loading... Please wait</p>
-      </div>   */}
+      <div id="loading">
+        {/* <p class="loading-title">Loading... Please wait</p> */}
+        <div class="ring">Loading
+          <span></span>
+        </div>
+      </div>  
     </s.Screen>
   );
 }
