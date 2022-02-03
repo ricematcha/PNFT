@@ -286,7 +286,8 @@ function App() {
           <header id="header">
             <div class="header-space">
               <div class="icons-left">
-                <img class="logo" src="/config/images/asset4.jpg" />
+                <img class="logo" src="/config/images/converted/asset4.jpg-large" srcset="/config/images/converted/asset4.jpg-small 480w,
+                 /config/images/converted/asset4.jpg-large 1024w" />
               </div>
               <div class="icons-right">
                 <div class="navbar">
@@ -313,26 +314,37 @@ function App() {
             </a> */}
         {/* Main Landing Page  */}
         <div class="main-page">
-          <img class="main-image" src="/config/images/asset6.jpg" />
-          <img class="small-image" src="/config/images/asset3.jpg" />
+          <img class="main-image" src="/config/images/converted/asset6.jpg-large" srcset="/config/images/converted/asset6.jpg-small 480w,
+                 /config/images/converted/asset6.jpg-large 1024w"/>
+          <img class="small-image" src="/config/images/converted/asset3.jpg-large" srcset="/config/images/converted/asset3.jpg-small 480w,
+                 /config/images/converted/asset3.jpg-large 1024w"/>
         </div>
         {/* Section Divider  */}
-        <img class="section-divider" src="/config/images/asset5.jpg" />
+        <img class="section-divider" src="/config/images/converted/asset5.jpg-large" srcset="/config/images/converted/asset5.jpg-small 480w,
+                 /config/images/converted/asset5.jpg-large 1024w"/>
         <div class="nft-showcase">
-          <img class="nft-showcase-title" src="/config/images/asset8.jpg" />
+          <img class="nft-showcase-title" src="/config/images/converted/asset8.jpg-large" srcset="/config/images/converted/asset8.jpg-small 480w,
+                 /config/images/converted/asset8.jpg-large 1024w"/>
           <div class="nft-container">
-            <img class="nft" src="/config/images/2.jpg"></img>
-            <img class="nft" src="/config/images/1.jpg"></img>
-            <img class="nft" src="/config/images/3.jpg"></img>
+            <img class="nft" src="/config/images/converted/2.jpg-large" srcset="/config/images/converted/2.jpg-small 480w,
+                 /config/images/converted/2.jpg-large 1024w"></img>
+            <img class="nft" src="/config/images/converted/1.jpg-large" srcset="/config/images/converted/1.jpg-small 480w,
+                 /config/images/converted/1.jpg-large 1024w"></img>
+            <img class="nft" src="/config/images/converted/3.jpg-large" srcset="/config/images/converted/3.jpg-small 480w,
+                 /config/images/converted/3.jpg-large 1024w"></img>
           </div>
-          <img class="nft-showcase-quote" src="/config/images/asset7.jpg" />
+          <img class="nft-showcase-quote" src="/config/images/converted/asset7.jpg-large" srcset="/config/images/converted/asset7.jpg-small 480w,
+                 /config/images/converted/asset7.jpg-large 1024w"/>
         </div>
         {/* About Section  */}
         <div id="about">
           <div class="about-container">
-            <img class="about-arc" src="/config/images/asset10.jpg"/>
-            <img class="about-title" src="/config/images/asset12.jpg" />
-            <img class="about-sparkle" src="/config/images/asset11.jpg"/>
+            <img class="about-arc" src="/config/images/converted/asset10.jpg-large" srcset="/config/images/converted/asset10.jpg-small 480w,
+                 /config/images/converted/asset10.jpg-large 1024w"/>
+            <img class="about-title" src="/config/images/converted/asset12.jpg-large" srcset="/config/images/converted/asset12.jpg-small 480w,
+                 /config/images/converted/asset12.jpg-large 1024w"/>
+            <img class="about-sparkle" src="/config/images/converted/asset11.jpg-large" srcset="/config/images/converted/asset11.jpg-small 480w,
+                 /config/images/converted/asset11.jpg-large 1024w"/>
             <div class="about-description">
             <p class="a-description">The first of its kind, an NFT experience crafted specially for your other half.</p>
             <p class="a-description">The Timeless Act NFT is a celebration of your love for them.</p>
@@ -348,8 +360,10 @@ function App() {
         <p class="black-border"></p>
         {/* Mint Details Section  */}
         <div class='mint-details'>
-          <img class="mint-details-bg" src="/config/images/asset16.jpg"/>
-          <img class="mint-title" src="/config/images/asset25.jpg"/>
+          <img class="mint-details-bg" src="/config/images/converted/asset16.jpg-large" srcset="/config/images/converted/asset16.jpg-small 480w,
+                 /config/images/converted/asset16.jpg-large 1024w"/>
+          <img class="mint-title" src="/config/images/converted/asset25.jpg-large" srcset="/config/images/converted/asset25.jpg-small 480w,
+                 /config/images/converted/asset25.jpg-large 1024w"/>
           <div class="mint-description">
             <p class="m-description">- Projected to release a few days leading up to 14th February, Valentines' Day</p>
             <br class="break"/>
@@ -363,15 +377,23 @@ function App() {
             and also doubles up as an access pass to future NFT drops across collaborations. Subject to include a ***** PFP 
             NFT collection down the road</p>
           </div>
-          <img class="base-perks-title" src="/config/images/asset22.jpg"/>
-          <img class="base-perks-sparkle" src="/config/images/asset21.jpg"/>
+          <img class="base-perks-title" src="/config/images/converted/asset22.jpg-large" srcset="/config/images/converted/asset22.jpg-small 480w,
+                 /config/images/converted/asset22.jpg-large 1024w"/>
+          <img class="base-perks-sparkle" src="/config/images/converted/asset21.jpg-large" srcset="/config/images/converted/21.jpg-small 480w,
+                 /config/images/converted/21.jpg-large 1024w"/>
           <div class="container">
-            <img class="bp-icon-1" src="/config/images/asset30.jpg"/>
-            <img class="bp-icon-2" src="/config/images/asset29.jpg"/>
-            <img class="bp-icon-3" src="/config/images/asset31.jpg"/>
-            <img class="bp-title-1" src="/config/images/asset32.jpg"/>
-            <img class="bp-title-2" src="/config/images/asset33.jpg"/>
-            <img class="bp-title-3" src="/config/images/asset34.jpg"/>
+            <img class="bp-icon-1" src="/config/images/converted/asset30.jpg-large" srcset="/config/images/converted/asset30.jpg-small 480w,
+                 /config/images/converted/asset30.jpg-large 1024w"/>
+            <img class="bp-icon-2" src="/config/images/converted/asset29.jpg-large" srcset="/config/images/converted/asset29.jpg-small 480w,
+                 /config/images/converted/asset29.jpg-large 1024w"/>
+            <img class="bp-icon-3" src="/config/images/converted/asset31.jpg-large" srcset="/config/images/converted/asset31.jpg-small 480w,
+                 /config/images/converted/asset31.jpg-large 1024w"/>
+            <img class="bp-title-1" src="/config/images/converted/asset32.jpg-large" srcset="/config/images/converted/asset32.jpg-small 480w,
+                 /config/images/converted/asset32.jpg-large 1024w"/>
+            <img class="bp-title-2" src="/config/images/converted/asset33.jpg-large" srcset="/config/images/converted/asset33.jpg-small 480w,
+                 /config/images/converted/asset33.jpg-large 1024w"/>
+            <img class="bp-title-3" src="/config/images/converted/asset34.jpg-large" srcset="/config/images/converted/asset34.jpg-small 480w,
+                 /config/images/converted/asset34.jpg-large 1024w"/>
           </div>
           <div class="base-perks-description">
             <p class="bp-description">To onboard your other half into the NFT space, we have curated a series of content
@@ -385,9 +407,12 @@ function App() {
         </div>
         {/* Roadmap Section  */}
         <div id="roadmap">
-          <img class="roadmap-arc" src="/config/images/asset37.jpg"/>
-          <img class="roadmap-title" src="/config/images/asset45.jpg"/>
-          <img class="roadmap-heart" src="/config/images/asset40.jpg"/>
+          <img class="roadmap-arc" src="/config/images/converted/asset37.jpg-large" srcset="/config/images/converted/asset37.jpg-small 480w,
+                 /config/images/converted/asset37.jpg-large 1024w"/>
+          <img class="roadmap-title" src="/config/images/converted/asset45.jpg-large" srcset="/config/images/converted/asset45.jpg-small 480w,
+                 /config/images/converted/asset45.jpg-large 1024w"/>
+          <img class="roadmap-heart" src="/config/images/converted/asset40.jpg-large" srcset="/config/images/converted/asset40.jpg-small 480w,
+                 /config/images/converted/asset40.jpg-large 1024w"/>
           <div class="roadmap-description">
             <p class="rm-description">We believe that love can be expressed in many different forms.</p>
             <p class="rm-description">And the more support we receive from our community, the more</p>
@@ -396,10 +421,14 @@ function App() {
             <br/>
             <p class="rm-description">For a total of 4 acts, we have -</p>
           </div>
-          <img class="roadmap-act-1" src="/config/images/asset43.jpg"/>
-          <img class="roadmap-act-2" src="/config/images/asset42.jpg"/>
-          <img class="roadmap-act-3" src="/config/images/asset41.jpg"/>
-          <img class="roadmap-act-4" src="/config/images/asset39.jpg"/>
+          <img class="roadmap-act-1" src="/config/images/converted/asset43.jpg-large" srcset="/config/images/converted/asset43.jpg-small 480w,
+                 /config/images/converted/asset43.jpg-large 1024w"/>
+          <img class="roadmap-act-2" src="/config/images/converted/asset42.jpg-large" srcset="/config/images/converted/asset42.jpg-small 480w,
+                 /config/images/converted/asset42.jpg-large 1024w"/>
+          <img class="roadmap-act-3" src="/config/images/converted/asset41.jpg-large" srcset="/config/images/converted/asset41.jpg-small 480w,
+                 /config/images/converted/asset41.jpg-large 1024w"/>
+          <img class="roadmap-act-4" src="/config/images/converted/asset39.jpg-large" srcset="/config/images/converted/asset39.jpg-small 480w,
+                 /config/images/converted/asset39.jpg-large 1024w"/>
         </div>
         {/* Team Section  */}
         {/* <div id="team">
@@ -407,9 +436,11 @@ function App() {
         </div> */}
         {/* FAQ Section  */}
         <div id="faq">
-          <img class="faq-title" src="/config/images/asset51.jpg"/>
+          <img class="faq-title" src="/config/images/converted/asset51.jpg-large" srcset="/config/images/converted/asset51.jpg-small 480w,
+                 /config/images/converted/asset51.jpg-large 1024w"/>
           <button type="button" class="collapsible">
-            <img class="faq-heart" src="/config/images/asset48.jpg"/>
+            <img class="faq-heart" src="/config/images/converted/asset48.jpg-large" srcset="/config/images/converted/asset48.jpg-small 480w,
+                 /config/images/converted/asset48.jpg-large 1024w"/>
             <p class="faq-numbers">Q1</p>
             <div class="question-container">
               <p class="faq-questions">What is The Timeless Act?</p>
@@ -422,7 +453,8 @@ function App() {
             </div>
           </div>
           <button type="button" class="collapsible">
-            <img class="faq-heart" src="/config/images/asset48.jpg"/>
+            <img class="faq-heart" src="/config/images/converted/asset48.jpg-large" srcset="/config/images/converted/asset48.jpg-small 480w,
+                 /config/images/converted/asset48.jpg-large 1024w"/>
             <p class="faq-numbers">Q2</p>
             <div class="question-container">
               <p class="faq-questions">How do I mint it? Is there a whitelist?</p>
@@ -435,7 +467,8 @@ function App() {
               </div>
           </div>
           <button type="button" class="collapsible">
-            <img class="faq-heart" src="/config/images/asset48.jpg"/>
+            <img class="faq-heart" src="/config/images/converted/asset48.jpg-large" srcset="/config/images/converted/asset48.jpg-small 480w,
+                 /config/images/converted/asset48.jpg-large 1024w"/>
             <p class="faq-numbers">Q3</p>
             <div class="question-container">
               <p class="faq-questions">When is the mint?</p>
@@ -448,7 +481,8 @@ function App() {
             </div>
           </div>
           <button type="button" class="collapsible">
-            <img class="faq-heart" src="/config/images/asset48.jpg"/>
+            <img class="faq-heart" src="/config/images/converted/asset48.jpg-large" srcset="/config/images/converted/asset48.jpg-small 480w,
+                 /config/images/converted/asset48.jpg-large 1024w"/>
             <p class="faq-numbers">Q4</p>
             <div class="question-container">
               <p class="faq-questions">How much does it cost to mint?</p>
