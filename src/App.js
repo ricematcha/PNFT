@@ -391,7 +391,7 @@ function App() {
           <div class="roadmap-description">
             <p class="rm-description">We believe that love can be expressed in many different forms.</p>
             <p class="rm-description">And the more support we receive from our community, the more</p>
-            <p class="rm-description">we'd love to give back. For every 250 TTA NFT minted, a new act</p>
+            <p class="rm-description">we'd love to give back. For every x number of TTA NFT minted, a new act</p>
             <p class="rm-description">gets unlocked in our story.</p>
             <br/>
             <p class="rm-description">For a total of 4 acts, we have -</p>
