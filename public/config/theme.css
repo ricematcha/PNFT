@@ -150,6 +150,7 @@ button {
 .header-space {
   display: flex;
   height: 50px;
+  margin-bottom: 26%;
 }
 
 .header-quote {
@@ -271,15 +272,16 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 385px;
-  margin-bottom: 387px;
+  /* margin-top: 50%; */
+  margin-bottom: 26.9%;
   position: relative;
 }
 
 .main-image {
   position: absolute;
-  max-width: 90rem;
-  padding-top: 3px;
+  max-width: 100%;
+  width: 100rem;
+  padding-top: 0.261%;
 }
 
 .small-image {
