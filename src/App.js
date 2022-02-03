@@ -321,9 +321,9 @@ function App() {
         <div class="nft-showcase">
           <img class="nft-showcase-title" src="/config/images/asset8.jpg" />
           <div class="nft-container">
-            <img class="nft" src="/config/images/1.jpg"></img>
             <img class="nft" src="/config/images/2.jpg"></img>
-            <img class="nft" src="/config/images/7.jpg"></img>
+            <img class="nft" src="/config/images/1.jpg"></img>
+            <img class="nft" src="/config/images/3.jpg"></img>
           </div>
           <img class="nft-showcase-quote" src="/config/images/asset7.jpg" />
         </div>
@@ -351,15 +351,15 @@ function App() {
           <img class="mint-details-bg" src="/config/images/asset16.jpg"/>
           <img class="mint-title" src="/config/images/asset25.jpg"/>
           <div class="mint-description">
-            <p class="m-description">TTA NFT is projected to release a few days leading up to 14th February, Valentines' Day.</p>
-            <p class="m-description">And we've decided to make it a pure WHITELIST mint.</p>
+            <p class="m-description">- Projected to release a few days leading up to 14th February, Valentines' Day</p>
             <br class="break"/>
-            <p class="m-description">Why, you ask?</p>
+            <p class="m-description">- Pure WHITELIST mint</p>
+            {/* <p class="m-description">Why, you ask?</p>
             <br class="break"/>
             <p class="m-description">Simple, TTA NFT is not for the flippers out there, it is meant to be gifted to 
-            your other half and hodl as a "digital memorabilia"</p>
+            your other half and hodl as a "digital memorabilia"</p> */}
             <br class="break"/>
-            <p class="m-description">Holders of TTA NFT will receive base perks, entitlement to participate in prized giveaways 
+            <p class="m-description">- Holders of TTA NFT will receive base perks, entitlement to participate in prized giveaways 
             and also doubles up as an access pass to future NFT drops across collaborations. Subject to include a ***** PFP 
             NFT collection down the road</p>
           </div>
