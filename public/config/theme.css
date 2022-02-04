@@ -276,7 +276,9 @@ button {
   margin-top: 1%;
   /* margin-bottom: 26.9%; */
   position: relative;
-  height: 94.5vh;
+  padding-top: 25%;
+  padding-bottom: 26%;
+  /* height: 94.5vh; */
   /* border: 1px solid black; */
 }
 
