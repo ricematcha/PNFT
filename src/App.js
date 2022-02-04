@@ -286,7 +286,7 @@ function App() {
           <header id="header">
             <div class="header-space">
               <div class="icons-left">
-                <img class="logo" src="/config/images/converted/asset4.jpg-large" srcset="/config/images/converted/asset4.jpg-small 480w,
+                <img class="logo" src="/config/images/converted/asset4.jpg-small" srcset="/config/images/converted/asset4.jpg-small 480w,
                  /config/images/converted/asset4.jpg-large 1024w" />
               </div>
               <div class="icons-right">

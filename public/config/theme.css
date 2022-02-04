@@ -154,27 +154,24 @@ button {
   /* border: 1px solid white; */
 }
 
-.header-quote {
-  color: white;
-  font-family: 'Optima';
-  font-size: 100px;
-}
-
-.header-description {
-  color: white;
-  font-family: 'Optima';
-  font-size: 23px;
-}
-
 .icons-left {
   display: flex;
   flex: 50%;
-  margin: 20px 0px 0px 20px;
+  margin-top: 1%;
+  margin-left: 1%;
+  /* margin: 20px 0px 0px 20px; */
+  /* border: 1px solid black; */
+  position: relative;
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
+  /* max-width: 100%; */
+  width: 3rem;
+  /* max-height: 100%; */
+  height: 3rem;
+  position: absolute;
+  margin-top: -1%;
+  /* height: 50px; */
 }
 
 /* .icons-middle {
@@ -182,20 +179,13 @@ button {
   margin: 0px 153px 0px 0px;
 } */
 
-.icons-title {
-  color: #f2ede7;
-  font-family: 'Optima';
-  font-size: 25px;
-    /* Vertical Positioning  */
-  line-height: 80px;
-  letter-spacing: 10px;
-
-}
-
 .icons-right {
   animation: 2s ease-out 0s 1 slideInFromLeft;
   display: flex;
-  margin: 0px 20px 0px 0px;
+  margin-right: 1%;
+  /* margin: 0px 60px 0px 0px; */
+  /* border: 1px solid black; */
+  position: relative;
   /* Vertical Positioning */
   /* padding: 30px 0px; */
 }
@@ -236,13 +226,16 @@ button {
 
 .navbar {
   display: flex;
+  max-width: 20%;
+  width: 20rem;
 }
 
 .navbarOptions {
   color: #f2ede7;
   font-size: 16px;
+  font-size: 1vw;
   font-family: 'Futura';
-  margin: 25px 15px 0px 15px;
+  margin: 25px 15px 0px 0px;
   /* Vertical Positioning  */
   line-height: 22px;
   position: relative;
@@ -261,7 +254,6 @@ button {
   left: 0;
   transition: all 500ms;
   /* cursor: none; */
-  /* border: 1px solid white; */
 }
 
 .navbarOptions:hover::after {
@@ -274,12 +266,9 @@ button {
   align-items: center;
   justify-content: center;
   margin-top: 1%;
-  /* margin-bottom: 26.9%; */
   position: relative;
   padding-top: 25%;
   padding-bottom: 26%;
-  /* height: 94.5vh; */
-  /* border: 1px solid black; */
 }
 
 .main-image {
@@ -302,7 +291,6 @@ button {
   align-items: center;
   justify-content: center;
   position: relative;
-  /* margin-top: 26%; */
 }
 
 .nft-showcase {
