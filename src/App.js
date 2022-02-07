@@ -121,16 +121,16 @@ function App() {
   });
   var audioStatus = false;
 
-  window.onload = myFunction();
+  // window.onload = myFunction();
 
-  function myFunction() {
-    let myVar = setTimeout(showPage, 3000);
-  }
+  // function myFunction() {
+  //   let myVar = setTimeout(showPage, 3000);
+  // }
 
-  function showPage() {
-    document.getElementById("loading").style.display = "none";
-    document.getElementById("page").style.display = "block";
-  }
+  // function showPage() {
+  //   document.getElementById("loading").style.display = "none";
+  //   document.getElementById("page").style.display = "block";
+  // }
 
   // Loading cursor object 
   document.addEventListener("DOMContentLoaded", function() { 
@@ -358,8 +358,10 @@ function App() {
           </div>
         </div>
         <p class="black-border"></p>
+        {/* <img class="section-divider" src="/config/images/converted/asset5.jpg-large" srcset="/config/images/converted/asset5.jpg-small 480w,
+                 /config/images/converted/asset5.jpg-large 1024w"/> */}
         {/* Mint Details Section  */}
-        <div class='mint-details'>
+        {/* <div class='mint-details'>
           <img class="mint-details-bg" src="/config/images/converted/asset16.jpg-large" srcset="/config/images/converted/asset16.jpg-small 480w,
                  /config/images/converted/asset16.jpg-large 1024w"/>
           <img class="mint-title" src="/config/images/converted/asset25.jpg-large" srcset="/config/images/converted/asset25.jpg-small 480w,
@@ -368,10 +370,6 @@ function App() {
             <p class="m-description">- Projected to release a few days leading up to 14th February, Valentines' Day</p>
             <br class="break"/>
             <p class="m-description">- Pure WHITELIST mint</p>
-            {/* <p class="m-description">Why, you ask?</p>
-            <br class="break"/>
-            <p class="m-description">Simple, TTA NFT is not for the flippers out there, it is meant to be gifted to 
-            your other half and hodl as a "digital memorabilia"</p> */}
             <br class="break"/>
             <p class="m-description">- Holders of TTA NFT will receive base perks, entitlement to participate in prized giveaways 
             and also doubles up as an access pass to future NFT drops across collaborations. Subject to include a ***** PFP 
@@ -404,7 +402,7 @@ function App() {
             of your other half. This will then be transformed into a wishlist that will be granted based on a range of mystery items 
             we have prepared</p>
           </div>
-        </div>
+        </div> */}
         {/* Roadmap Section  */}
         <div id="roadmap">
           <img class="roadmap-arc" src="/config/images/converted/asset37.jpg-large" srcset="/config/images/converted/asset37.jpg-small 480w,
@@ -431,9 +429,47 @@ function App() {
                  /config/images/converted/asset39.jpg-large 1024w"/>
         </div>
         {/* Team Section  */}
-        {/* <div id="team">
+        <div id="team">
           <img class="team-title" src="/config/images/asset47.jpg"/>
-        </div> */}
+          <div class="team-info">
+            <div class="team-row">
+              <div class="group">
+                <a href="https://twitter.com/ricematcha?s=20"><img class="team-image" src="/config/images/ricematcha.png" /></a>
+                <p class="team-name">@RICEMATCHA</p>
+                <p class="team-description">Co-founder, Lead Developer</p>
+              </div>
+              <div class="group">
+                <a href="https://twitter.com/natalestee?s=20"><img class="team-image" src="/config/images/nataleste.png" /></a>
+                <p class="team-name" href="">@NATALESTEE</p>
+                <p class="team-description">Co-founder, Creative Director</p>
+              </div>
+            </div>
+            <div class="team-row">
+              <div class="group">
+                <a href="https://twitter.com/Shijiaks?s=20"><img class="team-image" src="/config/images/shijiaks.jpg" /></a>
+                <p class="team-name" href="">@SHIJIAKS</p>
+                <p class="team-description">Co-founder, Operations Director</p>
+              </div>
+              <div class="group">
+                <img class="team-image" src="/config/images/yanny.jpg" />
+                <p class="team-name">YANNY</p>
+                <p class="team-description">Designer</p>
+              </div>
+            </div>
+            <div class="team-row">
+              <div class="group">
+                {/* <img class="team-image" src="/config/images/ricematcha.png" />
+                <p class="team-name">ALEX</p>
+                <p class="team-description">Photographer</p> */}
+              </div>
+              <div class="group">
+                <img class="team-image" src="/config/images/GRAE.jpg" />
+                <p class="team-name">GRAE</p>
+                <p class="team-description">Head of Content Creation</p>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* FAQ Section  */}
         <div id="faq">
           <img class="faq-title" src="/config/images/converted/asset51.jpg-large" srcset="/config/images/converted/asset51.jpg-small 480w,
@@ -764,12 +800,12 @@ function App() {
         </s.Container> */}
       </div>
       {/* Loading screen  */}
-      <div id="loading">
-        {/* <p class="loading-title">Loading... Please wait</p> */}
+      {/* <div id="loading">
         <div class="ring">Loading
           <span></span>
         </div>
-      </div>  
+        <img class="loading-image" src="/config/images/loadingpage.gif"/>
+      </div>   */}
     </s.Screen>
   );
 }
