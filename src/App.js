@@ -121,16 +121,16 @@ function App() {
   });
   var audioStatus = false;
 
-  // window.onload = myFunction();
+  window.onload = myFunction();
 
-  // function myFunction() {
-  //   let myVar = setTimeout(showPage, 3000);
-  // }
+  function myFunction() {
+    let myVar = setTimeout(showPage, 5000);
+  }
 
-  // function showPage() {
-  //   document.getElementById("loading").style.display = "none";
-  //   document.getElementById("page").style.display = "block";
-  // }
+  function showPage() {
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("page").style.display = "block";
+  }
 
   // Loading cursor object 
   document.addEventListener("DOMContentLoaded", function() { 
@@ -430,40 +430,50 @@ function App() {
         </div>
         {/* Team Section  */}
         <div id="team">
-          <img class="team-title" src="/config/images/asset47.jpg"/>
+          <img class="team-title" src="/config/images/converted/asset47.jpg-large" srcset="/config/images/converted/asset47.jpg-small 480w,
+                 /config/images/converted/asset47.jpg-large 1024w"/>
           <div class="team-info">
             <div class="team-row">
               <div class="group">
-                <a href="https://twitter.com/ricematcha?s=20"><img class="team-image" src="/config/images/ricematcha.png" /></a>
+                <a href="https://twitter.com/ricematcha?s=20"><img class="team-image" src="/config/images/converted/ricematcha.png-large" 
+                srcset="/config/images/converted/ricematcha.png-small 480w,
+                /config/images/converted/ricematcha.png-large 1024w"/></a>
                 <p class="team-name">@RICEMATCHA</p>
                 <p class="team-description">Co-founder, Lead Developer</p>
               </div>
               <div class="group">
-                <a href="https://twitter.com/natalestee?s=20"><img class="team-image" src="/config/images/nataleste.png" /></a>
+                <a href="https://twitter.com/natalestee?s=20"><img class="team-image" src="/config/images/converted/nataleste.png-large" 
+                srcset="/config/images/converted/nataleste.png-small 480w,
+                /config/images/converted/nataleste.png-large 1024w"/></a>
                 <p class="team-name" href="">@NATALESTEE</p>
                 <p class="team-description">Co-founder, Creative Director</p>
               </div>
             </div>
             <div class="team-row">
               <div class="group">
-                <a href="https://twitter.com/Shijiaks?s=20"><img class="team-image" src="/config/images/shijiaks.jpg" /></a>
+                <a href="https://twitter.com/Shijiaks?s=20"><img class="team-image" src="/config/images/converted/shijiaks.jpg-large" 
+                srcset="/config/images/converted/shijiaks.jpg-small 480w,
+                /config/images/converted/shijiaks.jpg-large 1024w"/></a>
                 <p class="team-name" href="">@SHIJIAKS</p>
                 <p class="team-description">Co-founder, Operations Director</p>
               </div>
               <div class="group">
-                <img class="team-image" src="/config/images/yanny.jpg" />
+                <img class="team-image" src="/config/images/converted/yanny.jpg-large" srcset="/config/images/converted/yanny.jpg-small 480w,
+                 /config/images/converted/yanny.jpg-large 1024w"/>
                 <p class="team-name">YANNY</p>
                 <p class="team-description">Designer</p>
               </div>
             </div>
             <div class="team-row">
               <div class="group">
-                {/* <img class="team-image" src="/config/images/ricematcha.png" />
-                <p class="team-name">ALEX</p>
-                <p class="team-description">Photographer</p> */}
+                <a href="https://twitter.com/doraelus?s=20"><img class="team-image" src="/config/images/converted/doraelus.jpg-large" srcset="/config/images/converted/doraelus.jpg-small 480w,
+                 /config/images/converted/doraelus.jpg-large 1024w"/></a>
+                <p class="team-name">@DORAELUS</p>
+                <p class="team-description">Photographer</p>
               </div>
               <div class="group">
-                <img class="team-image" src="/config/images/GRAE.jpg" />
+                <img class="team-image" src="/config/images/converted/GRAE.jpg-large" srcset="/config/images/converted/GRAE.jpg-small 480w,
+                 /config/images/converted/GRAE.jpg-large 1024w"/>
                 <p class="team-name">GRAE</p>
                 <p class="team-description">Head of Content Creation</p>
               </div>
@@ -800,12 +810,12 @@ function App() {
         </s.Container> */}
       </div>
       {/* Loading screen  */}
-      {/* <div id="loading">
-        <div class="ring">Loading
+      <div id="loading">
+        {/* <div class="ring">Loading
           <span></span>
-        </div>
-        <img class="loading-image" src="/config/images/loadingpage.gif"/>
-      </div>   */}
+        </div> */}
+        <img class="loading-image" src="/config/images/loadingpage2.png" />
+      </div>  
     </s.Screen>
   );
 }
