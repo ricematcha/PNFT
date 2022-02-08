@@ -814,7 +814,7 @@ function App() {
         {/* <div class="ring">Loading
           <span></span>
         </div> */}
-        <img class="loading-image" src="/config/images/loadingpage2.png" />
+        <img class="loading-image" src="/config/images/loadingpage2.gif" />
       </div>  
     </s.Screen>
   );

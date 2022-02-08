@@ -6,9 +6,9 @@ fs.readdirSync(directory).forEach(file => {
   sharp(`${directory}/${file}`)
     // .flatten({ background: { r: 255, g: 255, b: 255, alpha: 0 } })
     //small 480 large 1024
-    .resize({width: 480}) // width, height
+    .resize({width: 1024}) // width, height
     .webp({ lossless: true })
-    .toFile(`${directory}/converted/${file}-small`);
+    .toFile(`${directory}/converted/${file}-large`);
   });
 
 // const toApng = require('gif-to-apng')
